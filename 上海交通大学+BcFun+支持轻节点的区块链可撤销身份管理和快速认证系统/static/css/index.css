@@ -1,0 +1,23 @@
+b {
+    color: red;
+}
+
+.label_container span,a {
+    margin: 0 2px;
+}
+
+#example ul li {
+    cursor: pointer;
+}
+
+span {
+    cursor: pointer;
+}
+
+.nokeyword {
+    color: grey;
+}
+
+.keyword {
+    background-color: #eeeeee;
+}

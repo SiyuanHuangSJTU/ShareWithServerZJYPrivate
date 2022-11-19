@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Please input a peer address:</p>
+<form action="./init" method="POST">
+    Host:<input name="host" type="text">
+    Port:<input name="port" type="text">
+    <input type="submit" value="Submit">
+</form>
+<form action="./init" method="POST">
+    <input type="hidden" name="genesis" value="True">
+    <input type="submit" value="Run as Genesis Node">
+</form>
+</body>
+</html>
